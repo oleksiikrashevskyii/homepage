@@ -135,6 +135,26 @@ body {
     border-color: var(--text-decoration-color);
 }
 
+.uk-wrapper {
+    position: relative;
+}
+
+.uk-wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 100%;
+    right: -18px;
+    top: 0;
+    background: center url('./assets/uk.png');
+    background-size: cover;
+}
+
+.uk-flag {
+    position: absolute;
+    width: 100%;
+}
 
 
 /* ----------------------------- Intro and skills styles ------------------------------*/
